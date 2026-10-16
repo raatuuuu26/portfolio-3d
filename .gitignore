@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+*/node_modules/
+app/frontend/node_modules/
+app/backend/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+app/backend/.env
+
+# Expo / React Native
+.expo/
+*/.expo/
+web-build/
+dist/
+build/
+.output/
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
