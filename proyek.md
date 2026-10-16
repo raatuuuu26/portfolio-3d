@@ -1,54 +1,45 @@
 # 🚀 Galeri & Showcase Proyek
 
-> *File ini mendata proyek-proyek unggulan yang ingin kamu pamerkan. Tambahkan atau kurangi sesuai kebutuhan.*
+> *File ini mendata proyek-proyek unggulan yang ditampilkan di website portofolio Ratu Maulani Maheswari.*
 
 ---
 
-## 📌 Template Format Proyek
-Setiap kartu proyek di website portofolio akan menampilkan:
-1. Gambar Mockup / Cuplikan 3D
-2. Judul Proyek
-3. Deskripsi Singkat (Masalah yang diselesaikan & dampaknya)
-4. Label Teknologi yang dipakai
-5. Tombol `Live Demo` & `GitHub Repository`
+## 📌 Format Kartu Proyek
+Setiap kartu proyek di website portofolio menampilkan:
+1. Judul Proyek
+2. Kategori Bidang
+3. Deskripsi Singkat
+4. Label Teknologi (Tech Stack Tags)
+5. Tombol Direct Link ke GitHub Repository
 
 ---
 
-## Daftar Proyek
+## Daftar Proyek Pilihan
 
-### 🔹 Proyek 1 (Featured Project Utama)
-- **Nama Proyek**: `[ ... ]`
-- **Kategori**: `[ Web App / Mobile App / 3D Design / Fullstack ]`
+### 🔹 Proyek 1: Aplikasi POS & Akuntansi Toko
+- **Nama Proyek**: `Aplikasi POS & Akuntansi Toko`
+- **Kategori**: `Mobile Computing & POS`
 - **Deskripsi Singkat**:
-  > `[ Tuliskan ringkasan 1-2 kalimat tentang proyek ini ]`
-- **Teknologi yang Digunakan**: `[ contoh: React, Tailwind CSS, Supabase ]`
-- **Link Live Demo**: `[ https://... ]`
-- **Link GitHub Repository**: `[ https://github.com/... ]`
-- **Gambar / Screenshot**: `[ nama file gambar atau mockup ]`
+  > Aplikasi Point of Sale (POS) dan pembukuan akuntansi toko berbasis mobile untuk manajemen transaksi kasir, inventaris barang, dan pencatatan laporan keuangan toko.
+- **Teknologi yang Digunakan**: `TypeScript, Mobile Computing, POS System, Accounting`
+- **Link GitHub Repository**: `https://github.com/raatuuuu26/Tugas-aplikasi-pos-akuntansi-toko`
 
 ---
 
-### 🔹 Proyek 2
-- **Nama Proyek**: `[ ... ]`
-- **Kategori**: `[ ... ]`
+### 🔹 Proyek 2: Sistem Absensi Face Recognition
+- **Nama Proyek**: `Sistem Absensi Face Recognition`
+- **Kategori**: `AI & Computer Vision`
 - **Deskripsi Singkat**:
-  > `[ ... ]`
-- **Teknologi yang Digunakan**: `[ ... ]`
-- **Link Live Demo**: `[ ... ]`
-- **Link GitHub Repository**: `[ ... ]`
+  > Sistem pencatatan absensi otomatis berbasis pengenalan wajah (Face Recognition) cerdas untuk presensi kehadiran yang akurat, cepat, dan modern.
+- **Teknologi yang Digunakan**: `TypeScript, Computer Vision, Face Recognition, AI`
+- **Link GitHub Repository**: `https://github.com/raatuuuu26/absensi-face-recognition`
 
 ---
 
-### 🔹 Proyek 3
-- **Nama Proyek**: `[ ... ]`
-- **Kategori**: `[ ... ]`
+### 🔹 Proyek 3: Web Portofolio Interaktif 3D 360°
+- **Nama Proyek**: `Web Portofolio Interaktif 3D 360°`
+- **Kategori**: `Creative 3D & Cross-Platform`
 - **Deskripsi Singkat**:
-  > `[ ... ]`
-- **Teknologi yang Digunakan**: `[ ... ]`
-- **Link Live Demo**: `[ ... ]`
-- **Link GitHub Repository**: `[ ... ]`
-
----
-
-### 🔹 Proyek Tambahan (Jika ada)
-- `[ Silakan copy-paste format di atas untuk menambah proyek baru ]`
+  > Aplikasi portofolio pribadi interaktif berfitur panggung meja kerja developer 3D yang dapat diputar 360 derajat via gesture sentuhan layar (touch drag) dan auto-spin.
+- **Teknologi yang Digunakan**: `React Native, Expo, 3D 360°, Three.js / WebGL`
+- **Link GitHub Repository**: `https://github.com/raatuuuu26/portfolio-3d`
