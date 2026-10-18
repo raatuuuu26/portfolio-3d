@@ -5,10 +5,10 @@ Dokumen ini mencatat setiap perkembangan pengerjaan proyek portofolio secara ber
 ---
 
 ## 📌 Ringkasan Status Saat Ini
-- **Fase Saat Ini**: **Fase 4: Sinkronisasi Proyek Portofolio Asli & Push GitHub**
-- **Status Keseluruhan**: `[████████████████████] 100% (Proyek Asli Terpasang & Live di GitHub)`
+- **Fase Saat Ini**: **Fase 4: Troubleshooting Akses Mobile & Persiapan Deployment Online**
+- **Status Keseluruhan**: `[████████████████████] 100% (Server Berjalan, Solusi Akses Ponsel Siap)`
 - **Repository Remote**: [https://github.com/raatuuuu26/portfolio-3d](https://github.com/raatuuuu26/portfolio-3d)
-- **Terakhir Diperbarui**: 16 Oktober 2026
+- **Terakhir Diperbarui**: 18 Oktober 2026
 
 ---
 
@@ -30,27 +30,37 @@ Dokumen ini mencatat setiap perkembangan pengerjaan proyek portofolio secara ber
 ### 🔹 Prompt 10 - 11: Inisialisasi Git & Push ke GitHub
 - Seluruh 38 file proyek berhasil di-commit dan di-push ke repository `https://github.com/raatuuuu26/portfolio-3d`.
 
-### 🔹 Prompt 12: Penggantian Daftar Proyek dengan Proyek Asli GitHub (Tahap Ini)
-- **Aktivitas**:
-  - Mengambil data repositori asli akun GitHub `raatuuuu26`:
-    1. **Aplikasi POS & Akuntansi Toko**: Aplikasi Point of Sale (POS) dan akuntansi berbasis mobile untuk transaksi kasir, inventaris, dan laporan keuangan toko (`https://github.com/raatuuuu26/Tugas-aplikasi-pos-akuntansi-toko`).
-    2. **Sistem Absensi Face Recognition**: Sistem presensi kehadiran cerdas berbasis pengenalan wajah otomatis (`https://github.com/raatuuuu26/absensi-face-recognition`).
-    3. **Web Portofolio Interaktif 3D 360°**: Web dan aplikasi portofolio pribadi dengan efek visual 3D rotasi 360 derajat interaktif (`https://github.com/raatuuuu26/portfolio-3d`).
-  - Mengupdate komponen antarmuka [Projects.js](file:///c:/Users/maula/.gemini/antigravity/scratch/portfolio/app/frontend/src/components/Projects.js).
-  - Mengupdate endpoint backend `/api/projects` pada [server.js](file:///c:/Users/maula/.gemini/antigravity/scratch/portfolio/app/backend/server.js).
-  - Mengupdate dokumen konsep [proyek.md](file:///c:/Users/maula/.gemini/antigravity/scratch/portfolio/proyek.md).
-  - Melakukan git commit dan push pembaruan langsung ke remote GitHub repository `main`.
+### 🔹 Prompt 12: Penggantian Daftar Proyek dengan Proyek Asli GitHub
+- Mengupdate 3 proyek unggulan asli Ratu: Aplikasi POS & Akuntansi Toko, Sistem Absensi Face Recognition, dan Web Portofolio Interaktif 3D 360°.
+
+### 🔹 Prompt 13: Troubleshooting Akses Ponsel & Expo Go (Tahap Ini)
+- **Penyebab Kendala**:
+  1. *Versi Expo Go*: Aplikasi Expo Go di Play Store/App Store memiliki versi SDK yang berbeda dengan SDK terbaru proyek.
+  2. *Localhost di Ponsel*: Kata `localhost` jika diketik di HP akan mencari server di dalam HP itu sendiri, bukan di laptop.
+  3. *Typo penulisan*: Terdapat typo `htpp://` bukan `http://`.
+- **Solusi**:
+  - Mengecek IP lokal Wi-Fi laptop: `192.168.0.104`.
+  - Mengonfirmasi bahwa server di port `8081` dan `8082` aktif (`HTTP 200 OK`).
+  - Menjelaskan cara membuka langsung di browser HP (Chrome/Safari) menggunakan IP laptop: `http://192.168.0.104:8081` atau `http://192.168.0.104:8082` tanpa memerlukan aplikasi Expo Go.
+  - Memberikan opsi deploy online (GitHub Pages / Vercel) agar bisa dibuka dari mana saja tanpa bergantung Wi-Fi lokal.
 
 ---
 
 ## ✅ Apa yang Sudah Dikerjakan (Done)
-- [x] Tiga proyek unggulan asli Ratu terpasang lengkap dengan deskripsi, tech stack tags, dan link langsung ke GitHub masing-masing.
-- [x] Backend Express API terupdate sinkron dengan ketiga proyek baru.
-- [x] File konsep `proyek.md` terupdate.
-- [x] Perubahan di-commit dan di-push ke GitHub repository `portfolio-3d`.
+- [x] Port server aktif (8081 dan 8082) merespons normal.
+- [x] IP Wi-Fi lokal laptop terdeteksi (`192.168.0.104`).
+- [x] Firewall Windows terverifikasi mengizinkan akses jaringan lokal Node.js.
+- [x] Panduan membuka web di ponsel tanpa Expo Go disiapkan.
 
 ---
 
 ## 💡 Rekomendasi Langkah Selanjutnya
-- Cek repository GitHub-mu secara langsung di: [https://github.com/raatuuuu26/portfolio-3d](https://github.com/raatuuuu26/portfolio-3d).
-- Jalankan website di laptop dengan **dobel klik** pada [JALANKAN_WEBSITE.bat](file:///c:/Users/maula/.gemini/antigravity/scratch/portfolio/JALANKAN_WEBSITE.bat) untuk melihat kartu-kartu proyek barumu secara live!
+- Buka browser di HP (Chrome / Safari) yang terhubung ke Wi-Fi yang sama, lalu buka:
+  ```
+  http://192.168.0.104:8081
+  ```
+  atau
+  ```
+  http://192.168.0.104:8082
+  ```
+- Jika ingin bisa dibuka oleh siapa saja di internet tanpa satu Wi-Fi, kita bisa deploy ke Vercel atau GitHub Pages.
