@@ -36,10 +36,20 @@ Setiap kartu proyek di website portofolio menampilkan:
 
 ---
 
-### 🔹 Proyek 3: Web Portofolio Interaktif 3D 360°
-- **Nama Proyek**: `Web Portofolio Interaktif 3D 360°`
-- **Kategori**: `Creative 3D & Cross-Platform`
+### 🔹 Proyek 3: Academic Virtual Office
+- **Nama Proyek**: `academic-virtual-office`
+- **Kategori**: `Personal Multi-Agent AI Office Assistant for College Students`
 - **Deskripsi Singkat**:
-  > Aplikasi portofolio pribadi interaktif berfitur panggung meja kerja developer 3D yang dapat diputar 360 derajat via gesture sentuhan layar (touch drag) dan auto-spin.
-- **Teknologi yang Digunakan**: `React Native, Expo, 3D 360°, Three.js / WebGL`
-- **Link GitHub Repository**: `https://github.com/raatuuuu26/portfolio-3d`
+  > Sistem asisten pintar otonom (AI Multi-Agent System) berbasis lokal yang dirancang khusus untuk memanajemen seluruh aktivitas perkuliahan mahasiswa secara otomatis.
+- **Teknologi yang Digunakan**: `Node.js, HTML5, Modern CSS3 grid`
+- **Link GitHub Repository**: `https://github.com/raatuuuu26/academic-virtual-office`
+
+---
+
+### 🔹 Proyek 4: Smart Video & Gallery Speech Search
+- **Nama Proyek**: `GetKlip`
+- **Kategori**: `Mobile AI & Smart Media Search`
+- **Deskripsi Singkat**:
+  > GetKlip adalah aplikasi pencarian cerdas untuk galeri foto dan video di perangkat mobile berbasis pengenalan suara dan kata kunci.
+- **Teknologi yang Digunakan**: `Node.js, HTML5, Modern CSS3 grid`
+- **Link GitHub Repository**: `https://github.com/raatuuuu26/GetKlip`

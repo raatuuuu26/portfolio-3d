@@ -21,11 +21,19 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: 'Web Portofolio Interaktif 3D 360°',
-      category: 'Creative 3D & Cross-Platform',
-      description: 'Aplikasi portofolio pribadi interaktif berfitur panggung meja kerja developer 3D yang dapat diputar 360 derajat via gesture sentuhan layar (touch drag) dan auto-spin.',
-      tags: ['React Native', 'Expo', '3D 360°', 'Three.js / WebGL'],
-      githubUrl: 'https://github.com/raatuuuu26/portfolio-3d',
+      title: 'Academic Virtual Office',
+      category: 'AI Multi-Agent & Office Assistant',
+      description: 'Sistem asisten pintar otonom (AI Multi-Agent System) berbasis lokal yang dirancang khusus untuk memanajemen seluruh aktivitas perkuliahan mahasiswa secara otomatis.',
+      tags: ['Node.js', 'AI Multi-Agent', 'HTML5', 'CSS3 Grid'],
+      githubUrl: 'https://github.com/raatuuuu26/academic-virtual-office',
+    },
+    {
+      id: 4,
+      title: 'GetKlip - Smart Speech & Media Search',
+      category: 'Mobile AI & Media Search',
+      description: 'Aplikasi pencarian cerdas untuk galeri foto dan video di perangkat mobile berbasis pengenalan suara (speech recognition) dan kata kunci terindeks.',
+      tags: ['Mobile App', 'Speech Search', 'AI', 'Node.js', 'CSS3'],
+      githubUrl: 'https://github.com/raatuuuu26/GetKlip',
     },
   ];
 
